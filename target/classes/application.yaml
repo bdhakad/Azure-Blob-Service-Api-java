@@ -1,0 +1,15 @@
+
+spring:
+  profiles: dev
+  datasource:
+    url: url
+    username: username
+    password: password
+    driver-class-name: oracle.jdbc.OracleDriver
+server:
+  port: 8778
+
+logging:
+  level:
+    org:
+      springframework: ERROR
